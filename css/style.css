@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+p{
+    font-size: 16px;
+}
+.about{
+     display: flex;
+     justify-content: right;
+     align-items: center;
+     padding: 0 20px;
+    border: 2px solid white;
+    border-bottom: red;
+}
+ul{
+    list-style-type: none;
+}
+.sub-menu li{
+    margin-top: 10px;
+    list-style-type: circle;
+}
+
+.header-icon{
+    width: 30px;
+    height: 60px;
+}
+img{
+     width: 20px;
+     height: 20px;
+ }
+.header-img{
+    padding: 20px 30px;
+}
+.socials{
+    display: flex;
+}
+.socials-icon{
+    padding: 5px 30px;
+    background: #d8d8d8;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.socials-icon a{
+    background: #bdc5ce;
+}
+.socials a:not(:last-child){
+    margin: 0 10px;
+}
+.profile-desc{
+    margin: 30px 0 10px;
+}
+.profile-menu{
+    margin: 20px 40px;
+}
+.profile-menu li img{
+    margin-right: 10px;
+}
+.profile-menu li{
+    margin-bottom: 15px;
+}
+.sub-menu{
+    margin-left: 35px;
+}
